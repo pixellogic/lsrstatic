@@ -13,3 +13,33 @@ body {
 font-family: 'Roboto', sans-serif;
 font-size: 1.6rem;
 }
+
+
+/*====================
+        HEADER
+======================*/
+
+
+header {
+    padding:1rem 0;
+    transition: all 300ms ease-in;
+    
+}
+
+header .header_logo {
+    flex-grow: 1;
+    display: flex;
+    padding: 5px;
+}
+.header_logo-img{
+    width: 12rem;
+    margin-right: 1rem;
+
+}
+header .header_logo_venue {
+    font-size: 3rem;
+}
+
+header .header_logo_title {
+    text-transform: uppercase;
+}

@@ -1,13 +1,10 @@
 import react from 'react'
-import {BrowserRouter} from 'react-router-dom'
-
+import Header from './components/header_footer/header'
 const App = () =>{
     return(
-       <BrowserRouter>
-        <div className = "App">
-            <Routes />
-        </div>
-       </BrowserRouter>
+       <div className = "app">
+           <Header />
+       </div>
     )
 }
 
