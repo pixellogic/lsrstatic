@@ -14,9 +14,7 @@ const Location = () => {
             allowFullScreen=""
              
               ></iframe>
-            <div className = "location_tag">
-                Location
-            </div>
+           
         </div>
     );
 };

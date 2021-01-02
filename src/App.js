@@ -4,6 +4,7 @@ import Featured from './components/featured/featured'
 import Services from './components/services/services'
 import About from './components/about/About'
 import Location from './components/location/location'
+import Footer from './components/footer/footer'
 const App = () =>{
     return(
        <div className = "app" style={{
@@ -14,6 +15,7 @@ const App = () =>{
            <Services />
            <About />
            <Location />
+           <Footer />
        </div>
     )
 }
