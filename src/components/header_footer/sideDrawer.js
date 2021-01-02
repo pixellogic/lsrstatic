@@ -1,8 +1,17 @@
 import React from 'react'
+import {scroller} from 'react-scroll'
 import Drawer from '@material-ui/core/Drawer'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 export default function SideDrawer(props) {
+    const scrollToElement = (element) =>{
+        scroller.scrollTo(element, {
+            duration: 1500,
+            delay: 100,
+            smooth: true,
+            offset: -150
+        })
+    }
     return (
         <Drawer
             anchor = "right"
@@ -12,17 +21,17 @@ export default function SideDrawer(props) {
             <List
                 component = "nav"
             >
-                <ListItem button  onClick = {() =>console.log('featured')}>
-                    home
+                <ListItem button  onClick = {() =>scrollToElement('home')}>
+                    Home
                 </ListItem>
-                <ListItem button  onClick = {() =>console.log('about')}>
-                    about
+                <ListItem button  onClick = {() =>scrollToElement('services')}>
+                   Services
                 </ListItem>
-                <ListItem button  onClick = {() =>console.log('services')}>
-                    services
+                <ListItem button  onClick = {() =>scrollToElement('about')}>
+                    About
                 </ListItem>
-                <ListItem button  onClick = {() =>console.log('services')}>
-                    location
+                <ListItem button  onClick = {() =>scrollToElement('location')}>
+                    Location
                 </ListItem>
 
 

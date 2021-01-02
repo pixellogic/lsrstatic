@@ -14,6 +14,24 @@ body {
   font-size: 1.6rem;
 }
 
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  html {
+    font-size: 53%;
+  }
+}
+
 /*====================
         HEADER
 ======================*/
