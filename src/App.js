@@ -8,9 +8,7 @@ import Footer from './components/footer/footer'
 import {Element} from 'react-scroll'
 const App = () =>{
     return(
-       <div className = "app" style={{
-           height: '2000px'
-       }}>  <Header />
+       <div className = "app">  <Header />
             <Element name = "home">
                 <Featured />
             </Element>
@@ -23,6 +21,7 @@ const App = () =>{
              <Element name = "location">
                 <Location />
             </Element>
+            <Footer />
        </div>
     )
 }
