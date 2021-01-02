@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
-import slide_one from  '../../photos/about_img_1.jpg'
-import slide_two from '../../photos/about_img_2.jpg'
-import slide_three from '../../photos/about_img_3.jpg'
+import slide_one from  '../../photos/about1.jpg'
+import slide_two from '../../photos/about2.jpg'
+
 
 export default function Carousel() {
     const settings = {
@@ -14,7 +14,7 @@ export default function Carousel() {
     return (
         <div  className = "carrousel_wrapper"
                 style = {{
-                    height: '100vh',
+                    height: '60vh',
                     overflow: 'hidden',
                     background: 'green'
                 }}
@@ -27,7 +27,7 @@ export default function Carousel() {
                                 background:`url(${slide_one})`,
                                 
                                 backgroundPosition: 'center',
-                                height:'100vh'
+                                height:'60vh'
                             }}
                     ></div>
                 </div>
@@ -38,22 +38,11 @@ export default function Carousel() {
                             background:`url(${slide_two})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
-                            height:'100vh'
+                            height:'60vh'
                         }}
                    ></div>
                 </div>
-                <div>
-                    <div 
-                        className="carrousel_image"
-                        style={{
-                            background:`url(${slide_three})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center',
-                            backgroundRepeat: 'no-repeat',
-                            height:'100vh'
-                        }}
-                   ></div>
-                </div>
+               
 
             </Slider>          
         </div>
