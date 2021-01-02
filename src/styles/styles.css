@@ -123,4 +123,102 @@ header .header_logo_title {
   margin-right: 14px;
   padding-right: 49px;
 }
+
+/*====================
+       SERVICES- BY ASHISH BAJRACHARYA    
+======================*/
+.section-services {
+  background: #b8b8b8;
+}
+
+.heading-primary {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+}
+
+.services-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service-item {
+  border-radius: 5px;
+  font-size: 3rem;
+  margin: 5rem;
+  width: 30rem;
+  height: 30rem;
+  padding: 3rem;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-item-1 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/live-sound.png");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/live-sound.png");
+}
+
+.service-item-2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/ledWall.jpeg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/ledWall.jpeg");
+}
+
+.service-item-3 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/stageLight.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/stageLight.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.service-item-4 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/trussing.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/trussing.jpg");
+}
+
+.service-item-5 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/backline.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/backline.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service-item-6 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/AVProduction.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/AVProduction.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*====================
+       About- BY ASHISH BAJRACHARYA    
+======================*/
+.section-about {
+  background: #3c3c3c;
+  padding: 2rem;
+}
 /*# sourceMappingURL=styles.css.map */
