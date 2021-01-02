@@ -2,14 +2,10 @@ import React from 'react';
 import Slider from 'react-slick'
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
+import Carousel from './carousel'
 
 const About = () => {
-    const settings  ={
-        dots: false,
-        infinite:true,
-        autoplay: true,
-        speed: 400
-    }
+   
     return (  
         <div className = "section-about">
             <Fade top>
@@ -37,6 +33,17 @@ const About = () => {
 
                 
             </div>
+            
+            <Carousel />
+            <Fade bottom>
+                <p className = "paragraph paragraph-about">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                <p className = "paragraph paragraph-about">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                
+                </Fade>
            
             {/* <div className = "row">
             <Fade bottom>
