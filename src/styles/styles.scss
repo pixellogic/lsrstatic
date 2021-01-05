@@ -29,6 +29,67 @@ font-size: 1.6rem;
         font-size: 53%;
     }
 }
+@media screen and (max-width:360px) {
+    .artist_name .wrapper {
+       
+        height: 12rem;
+        margin: 6px;
+        text-align: center;
+        color: #fff;
+        font-size: 2rem;
+        padding: 2.5rem;
+        text-transform: uppercase;
+        top: 30%;
+    }    
+ }
+ @media screen and (max-width:508px) {
+    .artist_name .wrapper {
+       
+        //height: 12rem;
+        margin: 6px;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 2.5rem;
+        text-transform: uppercase;
+    }    
+ }
+ @media screen and (max-width:641px) {
+    .artist_name .wrapper {
+       
+        height: 12rem;
+        margin: 6px;
+        text-align: center;
+        color: #fff;
+        font-size: 3rem;
+        padding: 2.5rem;
+        text-transform: uppercase;
+    }    
+ }
+ /*-------------
+|   | MEDIA QUERIES
+--------------- */
+@media screen and (max-width:360px) {
+    .countdown_wrapper .countdown_top {       
+        font-size:1rem;       
+    }
+    .countdown_wrapper .countdown_bottom {
+        padding: .2rem .5rem;
+    }
+    
+
+ .countdown_wrapper .countdown_time {
+    font-size: 1.6rem;
+    border-right: 1px solid #F44336;
+    margin-right: .7rem;
+    padding-right: 49px;
+    }
+    .countdown_wrapper .countdown_tag {
+        text-transform: uppercase;
+        font-size:1.6rem;
+        
+    }
+}
 
 
 /*====================
@@ -174,10 +235,14 @@ header .header_logo_title {
     
     
      &-1{
-         background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/live-sound.png');
+         background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/live-sound.jpg'); 
+         background-size: cover;
+         background-position: center; 
      }
      &-2{
-         background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/ledWall.jpeg');
+         background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/ledWall.jpg');
+         background-size: cover;
+         background-position: center; 
      }
      &-3{
          background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/stageLight.jpg');
@@ -185,13 +250,14 @@ header .header_logo_title {
          background-position: center;   
      }
      &-4{
-         background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/trussing.jpg');
+         background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/truss.jpg');
+         background-size: cover;
+         background-position: center;   
      }
      &-5{
          background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/backline.jpg');
          background-size: cover;
          background-position: center;
-         background-repeat: no-repeat;
      }
      &-6{
          background: linear-gradient(to right,rgba(54,53,53,.6), rgba(54,53,53,.6)) ,url('../photos/AVProduction.jpg');

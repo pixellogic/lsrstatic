@@ -32,6 +32,64 @@ body {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .artist_name .wrapper {
+    height: 12rem;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2.5rem;
+    text-transform: uppercase;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .artist_name .wrapper {
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .artist_name .wrapper {
+    height: 12rem;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding: 2.5rem;
+    text-transform: uppercase;
+  }
+}
+
+/*-------------
+|   | MEDIA QUERIES
+--------------- */
+@media screen and (max-width: 360px) {
+  .countdown_wrapper .countdown_top {
+    font-size: 1rem;
+  }
+  .countdown_wrapper .countdown_bottom {
+    padding: .2rem .5rem;
+  }
+  .countdown_wrapper .countdown_time {
+    font-size: 1.6rem;
+    border-right: 1px solid #F44336;
+    margin-right: .7rem;
+    padding-right: 49px;
+  }
+  .countdown_wrapper .countdown_tag {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+  }
+}
+
 /*====================
         HEADER
 ======================*/
@@ -185,13 +243,17 @@ header .header_logo_title {
 }
 
 .service-item-1 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/live-sound.png");
-  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/live-sound.png");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/live-sound.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/live-sound.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .service-item-2 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/ledWall.jpeg");
-  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/ledWall.jpeg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/ledWall.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/ledWall.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .service-item-3 {
@@ -202,8 +264,10 @@ header .header_logo_title {
 }
 
 .service-item-4 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/trussing.jpg");
-  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/trussing.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(54, 53, 53, 0.6)), to(rgba(54, 53, 53, 0.6))), url("../photos/truss.jpg");
+  background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/truss.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .service-item-5 {
@@ -211,7 +275,6 @@ header .header_logo_title {
   background: linear-gradient(to right, rgba(54, 53, 53, 0.6), rgba(54, 53, 53, 0.6)), url("../photos/backline.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 .service-item-6 {

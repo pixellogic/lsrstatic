@@ -1,8 +1,10 @@
 import React from 'react'
 import Slider from 'react-slick'
-import slide_one from '../../photos/slide1.jpg'
+import slide_one from '../../photos/slide4.jpg'
 import slide_two from '../../photos/slide2.jpg'
 import slide_three from '../../photos/slide3.jpg'
+import slide_five from '../../photos/slide5.jpg'
+
 
 export default function Carousel() {
     const settings = {
@@ -47,6 +49,18 @@ export default function Carousel() {
                         className="carrousel_image"
                         style={{
                             background:`url(${slide_three})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                            height:'100vh'
+                        }}
+                   ></div>
+                </div>
+                <div>
+                    <div 
+                        className="carrousel_image"
+                        style={{
+                            background:`url(${slide_five})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat',
